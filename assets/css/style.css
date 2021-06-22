@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    background: radial-gradient(#FFF, #e88eff96);
+}
+
+.bg-light {
+    background: #FFF1 !important;
+}
+
+.card {
+    margin: 5px;
+}
+.card p, .card h4, .card div{
+    padding: 2px 10px;
+}
+
+.card h4 {
+    font-size: 14px;
+}
+
+.banner-title {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.testimonials .col-md-4,.testimonials .col-sm-12 {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.img-thumbnail{
+    max-width: 50px;
+}
+
+.testimonials .col-md-4 p,.testimonials .col-sm-12 p{
+    color: #555;
+    font-size: 13px;
+    margin: 12px 0;
+}
+.testimonials .col-md-4:hover,.testimonials .col-sm-12:hover {
+    transform: translateY(-10px);
+}
+
+.testimonials .fa-quote-left {
+    font-size: 34px;
+    color: #5a489b
+}
+
+.testimonials .col-md-4 h3,.testimonials .col-sm-12 h3 {
+    color: rgb(31, 30, 30);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer{
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #555;
+}
+.footer h3{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    color: #555;
+}
+.app-logo img{
+    width: 45%;  
+}
+.app-logo img:first{
+    margin-right: 15px;
+}
+.mr-15{
+    margin-right: 10px;
+}
+.footer hr{
+    border: none;
+    background: #fff;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
